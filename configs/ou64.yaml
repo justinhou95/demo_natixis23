@@ -1,0 +1,21 @@
+dataset: Ou
+n_lags: 64
+device: 'cpu'
+
+#hyperparameters:  
+lr_G: 0.01
+lr_E: 0.01 
+batch_size: 256
+gamma: 1
+beta: 1
+
+#embedding hyperparameter:
+E_hidden_dim: 64
+E_num_layers: 2
+init_fixed: True
+#generator hyperparameter:
+G_input_dim: 2
+G_hidden_dim: 64
+G_num_layers: 2
+
+comment: ou64
